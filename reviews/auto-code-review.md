@@ -3,6 +3,6 @@
 Approved: False
 
 ## Issues
-- File still missing trailing newline - issue it documents remains unfixed
-- Self-referential review loop: diff only edits review file describing itself, no actual code reviewed
-- Premise broken: reviewing a review of a review. No product code, tests, or functionality in any of these commits
+- Diff still missing trailing newline: file ends '\ No newline at end of file' - issue it documents, one byte to fix, never fixed in 5 commits
+- Self-referential loop: all 5 recent commits touch only reviews/auto-code-review.md, zero product code
+- No functionality/security/performance/test code present to review

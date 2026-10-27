@@ -3,5 +3,6 @@
 Approved: False
 
 ## Issues
-- Review document itself still missing trailing newline (POSIX compliance) - the diff shows '\ No newline at end of file'
-- Approved: False is now consistent with open issues - correct
+- File still missing trailing newline - issue it documents remains unfixed
+- Self-referential review loop: diff only edits review file describing itself, no actual code reviewed
+- Premise broken: reviewing a review of a review. No product code, tests, or functionality in any of these commits
